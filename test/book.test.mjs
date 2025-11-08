@@ -9,7 +9,7 @@ import {
   afterEach,
   beforeAll,
 } from "vitest";
-import db from "../db.js"; // you’d need ESM-compatible exports here
+import db from "../db.js";
 import app from "../app.js";
 let isbn;
 
